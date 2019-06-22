@@ -7,25 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C099EC422BA18BF0055D7E5 /* MultiplicationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C099EC322BA18BF0055D7E5 /* MultiplicationGroup.m */; };
 		2CFE161622B95CA100B4B359 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE161522B95CA100B4B359 /* AppDelegate.m */; };
-		2CFE161922B95CA100B4B359 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE161822B95CA100B4B359 /* ViewController.m */; };
 		2CFE161C22B95CA100B4B359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFE161A22B95CA100B4B359 /* Main.storyboard */; };
 		2CFE161E22B95CA200B4B359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFE161D22B95CA200B4B359 /* Assets.xcassets */; };
-		2CFE162122B95CA200B4B359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFE161F22B95CA200B4B359 /* LaunchScreen.storyboard */; };
 		2CFE162422B95CA200B4B359 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE162322B95CA200B4B359 /* main.m */; };
+		2CFE162B22B95CC100B4B359 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFE162A22B95CC100B4B359 /* Launch Screen.storyboard */; };
+		2CFE162E22B95D4200B4B359 /* MultiplicationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE162D22B95D4200B4B359 /* MultiplicationTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C099EC222BA18BF0055D7E5 /* MultiplicationGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiplicationGroup.h; sourceTree = "<group>"; };
+		2C099EC322BA18BF0055D7E5 /* MultiplicationGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplicationGroup.m; sourceTree = "<group>"; };
 		2CFE161122B95CA100B4B359 /* MultiplicationTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplicationTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFE161422B95CA100B4B359 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2CFE161522B95CA100B4B359 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2CFE161722B95CA100B4B359 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2CFE161822B95CA100B4B359 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2CFE161B22B95CA100B4B359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CFE161D22B95CA200B4B359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2CFE162022B95CA200B4B359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CFE162222B95CA200B4B359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CFE162322B95CA200B4B359 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CFE162A22B95CC100B4B359 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		2CFE162C22B95D4200B4B359 /* MultiplicationTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiplicationTableViewController.h; sourceTree = "<group>"; };
+		2CFE162D22B95D4200B4B359 /* MultiplicationTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplicationTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +63,15 @@
 			children = (
 				2CFE161422B95CA100B4B359 /* AppDelegate.h */,
 				2CFE161522B95CA100B4B359 /* AppDelegate.m */,
-				2CFE161722B95CA100B4B359 /* ViewController.h */,
-				2CFE161822B95CA100B4B359 /* ViewController.m */,
+				2CFE162C22B95D4200B4B359 /* MultiplicationTableViewController.h */,
+				2CFE162D22B95D4200B4B359 /* MultiplicationTableViewController.m */,
+				2C099EC222BA18BF0055D7E5 /* MultiplicationGroup.h */,
+				2C099EC322BA18BF0055D7E5 /* MultiplicationGroup.m */,
 				2CFE161A22B95CA100B4B359 /* Main.storyboard */,
 				2CFE161D22B95CA200B4B359 /* Assets.xcassets */,
-				2CFE161F22B95CA200B4B359 /* LaunchScreen.storyboard */,
 				2CFE162222B95CA200B4B359 /* Info.plist */,
 				2CFE162322B95CA200B4B359 /* main.m */,
+				2CFE162A22B95CC100B4B359 /* Launch Screen.storyboard */,
 			);
 			path = MultiplicationTable;
 			sourceTree = "<group>";
@@ -128,7 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CFE162122B95CA200B4B359 /* LaunchScreen.storyboard in Resources */,
+				2CFE162B22B95CC100B4B359 /* Launch Screen.storyboard in Resources */,
 				2CFE161E22B95CA200B4B359 /* Assets.xcassets in Resources */,
 				2CFE161C22B95CA100B4B359 /* Main.storyboard in Resources */,
 			);
@@ -141,9 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CFE161922B95CA100B4B359 /* ViewController.m in Sources */,
 				2CFE162422B95CA200B4B359 /* main.m in Sources */,
+				2C099EC422BA18BF0055D7E5 /* MultiplicationGroup.m in Sources */,
 				2CFE161622B95CA100B4B359 /* AppDelegate.m in Sources */,
+				2CFE162E22B95D4200B4B359 /* MultiplicationTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,14 +162,6 @@
 				2CFE161B22B95CA100B4B359 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2CFE161F22B95CA200B4B359 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CFE162022B95CA200B4B359 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
